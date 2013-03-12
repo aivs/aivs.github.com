@@ -9,8 +9,8 @@
   <meta name="author" content="aivs">
 
   
-  <meta name="description" content="Синтаксис простой, можно и в консоли писать Как настроящий хакер
-">
+  <meta name="description" content="При работе в консоли можно не дописывать команду, а нажать Tab и она сама допишется, но по умолчанию это не работает, когда команду набираешь
+после &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -71,7 +71,7 @@
       
   <header>
     
-      <h1 class="entry-title"><a href="/blog/2013/03/12/umnyi-dom/">Умный дом</a></h1>
+      <h1 class="entry-title"><a href="/blog/2013/03/12/avtodopolnieniie-sudo/">Автодополнение Sudo</a></h1>
     
     
       <p class="meta">
@@ -87,93 +87,22 @@
   
 
 
-<time datetime="2013-03-12T11:45:00+04:00" pubdate data-updated="true">Вторник, 12 Марта 2013</time>
+<time datetime="2013-03-12T14:31:00+04:00" pubdate data-updated="true">Вторник, 12 Марта 2013</time>
         
       </p>
     
   </header>
 
 
-  <div class="entry-content"><h3>Синтаксис простой, можно и в консоли писать</h3>
+  <div class="entry-content"><p>При работе в консоли можно не дописывать команду, а нажать Tab и она сама допишется, но по умолчанию это не работает, когда команду набираешь
+после sudo. Чтобы автодополнение заработало после sudo, kdesu и gksu, добавьте в файл ~/.bashrc строку:</p>
 
-<p>Как настроящий хакер</p>
-</div>
-  
-  
-
-
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2013/02/22/tietris/">тетрис</a></h1>
-    
-    
-      <p class="meta">
-        
+<figure class='code'> <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'><span class="nb">complete</span> -cf sudo kdesu
+</span></code></pre></td></tr></table></div></figure>
 
 
 
-
-
-
-
-
-  
-
-
-<time datetime="2013-02-22T13:15:00+04:00" pubdate data-updated="true">Пятница, 22 Февраля 2013</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><h3>Вышел новый тетрис</h3>
-
-<p>тетрис 3000!
-крутотень крутотенюшка</p>
-</div>
-  
-  
-
-
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2013/02/21/title/">Первая запись</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2013-02-21T23:10:00+04:00" pubdate data-updated="true">Четверг, 21 Февраля 2013</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><h3>Заголовок</h3>
-
-<p>Большая статья про компьютеры скоро появится здесь</p>
 </div>
   
   
@@ -194,15 +123,7 @@
   <ul id="recent_posts">
     
       <li class="post">
-        <a href="/blog/2013/03/12/umnyi-dom/">Умный дом</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2013/02/22/tietris/">тетрис</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2013/02/21/title/">Первая запись</a>
+        <a href="/blog/2013/03/12/avtodopolnieniie-sudo/">Автодополнение sudo</a>
       </li>
     
   </ul>

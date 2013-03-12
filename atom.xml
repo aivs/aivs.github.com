@@ -4,7 +4,7 @@
   <title><![CDATA[aivs's blog]]></title>
   <link href="http://aivs.github.com/atom.xml" rel="self"/>
   <link href="http://aivs.github.com/"/>
-  <updated>2013-03-12T12:42:55+04:00</updated>
+  <updated>2013-03-12T14:33:26+04:00</updated>
   <id>http://aivs.github.com/</id>
   <author>
     <name><![CDATA[aivs]]></name>
@@ -14,36 +14,19 @@
 
   
   <entry>
-    <title type="html"><![CDATA[Умный дом]]></title>
-    <link href="http://aivs.github.com/blog/2013/03/12/umnyi-dom/"/>
-    <updated>2013-03-12T11:45:00+04:00</updated>
-    <id>http://aivs.github.com/blog/2013/03/12/umnyi-dom</id>
-    <content type="html"><![CDATA[<h3>Синтаксис простой, можно и в консоли писать</h3>
+    <title type="html"><![CDATA[Автодополнение sudo]]></title>
+    <link href="http://aivs.github.com/blog/2013/03/12/avtodopolnieniie-sudo/"/>
+    <updated>2013-03-12T14:31:00+04:00</updated>
+    <id>http://aivs.github.com/blog/2013/03/12/avtodopolnieniie-sudo</id>
+    <content type="html"><![CDATA[<p>При работе в консоли можно не дописывать команду, а нажать Tab и она сама допишется, но по умолчанию это не работает, когда команду набираешь
+после sudo. Чтобы автодополнение заработало после sudo, kdesu и gksu, добавьте в файл ~/.bashrc строку:</p>
 
-<p>Как настроящий хакер</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[тетрис]]></title>
-    <link href="http://aivs.github.com/blog/2013/02/22/tietris/"/>
-    <updated>2013-02-22T13:15:00+04:00</updated>
-    <id>http://aivs.github.com/blog/2013/02/22/tietris</id>
-    <content type="html"><![CDATA[<h3>Вышел новый тетрис</h3>
+<figure class='code'> <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'><span class="nb">complete</span> -cf sudo kdesu
+</span></code></pre></td></tr></table></div></figure>
 
-<p>тетрис 3000!
-крутотень крутотенюшка</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Первая запись]]></title>
-    <link href="http://aivs.github.com/blog/2013/02/21/title/"/>
-    <updated>2013-02-21T23:10:00+04:00</updated>
-    <id>http://aivs.github.com/blog/2013/02/21/title</id>
-    <content type="html"><![CDATA[<h3>Заголовок</h3>
 
-<p>Большая статья про компьютеры скоро появится здесь</p>
+
 ]]></content>
   </entry>
   

@@ -5,12 +5,12 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>Первая запись - aivs's blog</title>
+  <title>Автодополнение sudo - aivs's blog</title>
   <meta name="author" content="aivs">
 
   
-  <meta name="description" content="Заголовок Большая статья про компьютеры скоро появится здесь
-">
+  <meta name="description" content="При работе в консоли можно не дописывать команду, а нажать Tab и она сама допишется, но по умолчанию это не работает, когда команду набираешь
+после &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -19,7 +19,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://aivs.github.com/blog/2013/02/21/title/">
+  <link rel="canonical" href="http://aivs.github.com/blog/2013/03/12/avtodopolnieniie-sudo/">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <script src="/javascripts/modernizr-2.0.js"></script>
@@ -68,7 +68,7 @@
   
   <header>
     
-      <h1 class="entry-title">Первая запись</h1>
+      <h1 class="entry-title">Автодополнение Sudo</h1>
     
     
       <p class="meta">
@@ -84,16 +84,22 @@
   
 
 
-<time datetime="2013-02-21T23:10:00+04:00" pubdate data-updated="true">Четверг, 21 Февраля 2013</time>
+<time datetime="2013-03-12T14:31:00+04:00" pubdate data-updated="true">Вторник, 12 Марта 2013</time>
         
       </p>
     
   </header>
 
 
-<div class="entry-content"><h3>Заголовок</h3>
+<div class="entry-content"><p>При работе в консоли можно не дописывать команду, а нажать Tab и она сама допишется, но по умолчанию это не работает, когда команду набираешь
+после sudo. Чтобы автодополнение заработало после sudo, kdesu и gksu, добавьте в файл ~/.bashrc строку:</p>
 
-<p>Большая статья про компьютеры скоро появится здесь</p>
+<figure class='code'> <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'><span class="nb">complete</span> -cf sudo kdesu
+</span></code></pre></td></tr></table></div></figure>
+
+
+
 </div>
 
 
@@ -116,7 +122,7 @@
   
 
 
-<time datetime="2013-02-21T23:10:00+04:00" pubdate data-updated="true">Четверг, 21 Февраля 2013</time>
+<time datetime="2013-03-12T14:31:00+04:00" pubdate data-updated="true">Вторник, 12 Марта 2013</time>
       
 
 
@@ -124,7 +130,7 @@
     
       <div class="sharing">
   
-  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://aivs.github.com/blog/2013/02/21/title/" data-via="" data-counturl="http://aivs.github.com/blog/2013/02/21/title/" >Tweet</a>
+  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://aivs.github.com/blog/2013/03/12/avtodopolnieniie-sudo/" data-via="" data-counturl="http://aivs.github.com/blog/2013/03/12/avtodopolnieniie-sudo/" >Tweet</a>
   
   
   
@@ -133,8 +139,6 @@
     
     <p class="meta">
       
-      
-        <a class="basic-alignment right" href="/blog/2013/02/22/tietris/" title="Next Post: тетрис">тетрис &raquo;</a>
       
     </p>
   </footer>
@@ -149,15 +153,7 @@
   <ul id="recent_posts">
     
       <li class="post">
-        <a href="/blog/2013/03/12/umnyi-dom/">Умный дом</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2013/02/22/tietris/">тетрис</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2013/02/21/title/">Первая запись</a>
+        <a href="/blog/2013/03/12/avtodopolnieniie-sudo/">Автодополнение sudo</a>
       </li>
     
   </ul>
