@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[aivs's blog]]></title>
-  <link href="http://aivs.github.com/atom.xml" rel="self"/>
-  <link href="http://aivs.github.com/"/>
-  <updated>2013-03-14T14:45:27+04:00</updated>
-  <id>http://aivs.github.com/</id>
+  <link href="aivs.su/atom.xml" rel="self"/>
+  <link href="aivs.su/"/>
+  <updated>2013-03-14T14:52:39+04:00</updated>
+  <id>aivs.su/</id>
   <author>
     <name><![CDATA[aivs]]></name>
     
@@ -15,25 +15,25 @@
   
   <entry>
     <title type="html"><![CDATA[Игровая приставка к TV из компьютера. Управление системой с джойстика]]></title>
-    <link href="http://aivs.github.com/blog/2013/03/12/ighrovaia-pristavka-k-tv-iz-komp%27iutiera-upravlieniie-sistiemoi-s-dzhoistika/"/>
+    <link href="aivs.su/blog/2013/03/12/ighrovaia-pristavka-k-tv-iz-komp%27iutiera-upravlieniie-sistiemoi-s-dzhoistika/"/>
     <updated>2013-03-12T15:56:00+04:00</updated>
-    <id>http://aivs.github.com/blog/2013/03/12/ighrovaia-pristavka-k-tv-iz-komp&#8217;iutiera-upravlieniie-sistiemoi-s-dzhoistika</id>
+    <id>aivs.su/blog/2013/03/12/ighrovaia-pristavka-k-tv-iz-komp&#8217;iutiera-upravlieniie-sistiemoi-s-dzhoistika</id>
     <content type="html"><![CDATA[<p>Иногда когда друзья заходят в гости, нас пробивает на ностальгию, мы садимся у телека, запускаем Mortal Kombat 3 на компе и рубимся пока пиво не закончится. Каждый раз процесс подготовки к игре затягивается тем что, нужно отключить комп от монитора, принести его к телевизору, подключить, с клавы выбрать игру и только после этого можно поиграть. Я решил сделать из старенького компа стационарную игровую приставку к телевизору, чтобы сел к телеку и сразу играй!</p>
 
 <p><strong>Собственно о настройке системы для игровой консоли эта статья.</strong></p>
 
 <ul>
 <li><p>Самое главное джойстики, у меня Genius за 100 р. купленные, в Kubuntu никаких дров не ставил, в системе видятся как /dev/input/js0 и /dev/input/js1
-<img class="center" src="http://aivs.github.com/images/posts_images/joypad_sega.jpg"></p></li>
+<img class="center" src="aivs.su/images/posts_images/joypad_sega.jpg"></p></li>
 <li><p>Сама система Kubuntu, но выбор системы не принципиален, можно и голый Arch только с Иксами</p></li>
 <li>Эмулятор Sega. Самый лучший это gens http://sourceforge.net/projects/gens/
-<img class="center" src="http://aivs.github.com/images/posts_images/gens.png"></li>
+<img class="center" src="aivs.su/images/posts_images/gens.png"></li>
 <li>Самое главное условие для меня было это полный отказ от клавиатуры в этой системе, поэтому игры нужно выбирать с помощью джойстика. Программа эмулирующая нажатия клавиш клавиатур с джойстика называется <strong>qjoypad</strong> http://qjoypad.sourceforge.net/
-<img class="center" src="http://aivs.github.com/images/posts_images/qjoypad_screen1.png">
+<img class="center" src="aivs.su/images/posts_images/qjoypad_screen1.png">
 Программа очень проста в настройке, чтобы задать какая клавиша клавиатуры будет соответствовать кнопке джойстика выбираем пункт «Quick set» и сначала нажимаем кнопку Вверх на джойстике, а затем стрелку Вверх на клавиатуре, также настраиваем все стрелки и кнопку Enter.
-<img class="center" src="http://aivs.github.com/images/posts_images/qjoypad_screen2.png">
+<img class="center" src="aivs.su/images/posts_images/qjoypad_screen2.png">
 Теперь в любом файловом менеджере вы с помощью джойстика можете выбрать и запустить игру. Я в качестве файлового менеджера использовал mc, в нем лишь добавил ассоциацию на *.gen файлы
-<img class="center" src="http://aivs.github.com/images/posts_images/mc1.png"></li>
+<img class="center" src="aivs.su/images/posts_images/mc1.png"></li>
 <li>Добавляем ассоциацию на *.gen файл в mc, чтобы можно было из mc запускать игры для Sega. Добавим в /etc/mc/mc.ext</li>
 </ul>
 
@@ -58,9 +58,9 @@
   
   <entry>
     <title type="html"><![CDATA[Перевернуть строку в Objective-C]]></title>
-    <link href="http://aivs.github.com/blog/2013/03/12/pierieviernut%27-stroku-v-objective-c/"/>
+    <link href="aivs.su/blog/2013/03/12/pierieviernut%27-stroku-v-objective-c/"/>
     <updated>2013-03-12T15:37:00+04:00</updated>
-    <id>http://aivs.github.com/blog/2013/03/12/pierieviernut&#8217;-stroku-v-objective-c</id>
+    <id>aivs.su/blog/2013/03/12/pierieviernut&#8217;-stroku-v-objective-c</id>
     <content type="html"><![CDATA[<p>Создаем категорию Internet для NSString</p>
 
 <figure class='code'> <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
@@ -106,9 +106,9 @@
   
   <entry>
     <title type="html"><![CDATA[Почтовый сервер exim. Отправка почты от любого имени]]></title>
-    <link href="http://aivs.github.com/blog/2013/03/12/pochtovyi-siervier-exim-otpravka-pochty-ot-liubogho-imieni/"/>
+    <link href="aivs.su/blog/2013/03/12/pochtovyi-siervier-exim-otpravka-pochty-ot-liubogho-imieni/"/>
     <updated>2013-03-12T15:16:00+04:00</updated>
-    <id>http://aivs.github.com/blog/2013/03/12/pochtovyi-siervier-exim-otpravka-pochty-ot-liubogho-imieni</id>
+    <id>aivs.su/blog/2013/03/12/pochtovyi-siervier-exim-otpravka-pochty-ot-liubogho-imieni</id>
     <content type="html"><![CDATA[<p>Устанавливаем пакет exim. Стартуем демон.
 Чтобы отправить сообщение выполняем команду:</p>
 
@@ -126,7 +126,7 @@
 
 <p>означает: отправить email с адреса vasia@pupkin.ru, имя отправителя будет отображаться «Вася Пупкин»
 Email в конце my_email@yandex.ru, это адресат, кому мы отправляем сообщение.
-<img class="center" src="http://aivs.github.com/images/posts_images/email_message.jpg">
+<img class="center" src="aivs.su/images/posts_images/email_message.jpg">
 Если сообщения приходят с кракозябрами или со знаками вопросов, значит вы отправляете в не правильной кодировки. Настроим кодировку ru_RU.UTF-8 как системную.</p>
 
 <ul>
@@ -172,20 +172,20 @@ Email в конце my_email@yandex.ru, это адресат, кому мы о�
   
   <entry>
     <title type="html"><![CDATA[Восстановление удаленного текста из любой формы. Lazarus]]></title>
-    <link href="http://aivs.github.com/blog/2013/03/12/vosstanovlieniie-udaliennogho-tieksta-iz-liuboi-formy-lazarus/"/>
+    <link href="aivs.su/blog/2013/03/12/vosstanovlieniie-udaliennogho-tieksta-iz-liuboi-formy-lazarus/"/>
     <updated>2013-03-12T15:07:00+04:00</updated>
-    <id>http://aivs.github.com/blog/2013/03/12/vosstanovlieniie-udaliennogho-tieksta-iz-liuboi-formy-lazarus</id>
-    <content type="html"><![CDATA[<p>Сверхнеобходимый плагин для Chrome <strong>Lazarus: Form Recovery</strong>, запоминает весь текст, который вы вводили в форму. Если вы потеряли текст при закрытии вкладки, перезагрузки, или просто случайно стерли, то Lazarus легко восстановит текст, для этого нужно нажать на значок <img src="http://aivs.github.com/images/posts_images/lazarus1.png">  в правом верхнем углу формы, и выбрать нужную версию текста.
-<img class="center" src="http://aivs.github.com/images/posts_images/lazarus.jpg"></p>
+    <id>aivs.su/blog/2013/03/12/vosstanovlieniie-udaliennogho-tieksta-iz-liuboi-formy-lazarus</id>
+    <content type="html"><![CDATA[<p>Сверхнеобходимый плагин для Chrome <strong>Lazarus: Form Recovery</strong>, запоминает весь текст, который вы вводили в форму. Если вы потеряли текст при закрытии вкладки, перезагрузки, или просто случайно стерли, то Lazarus легко восстановит текст, для этого нужно нажать на значок <img src="aivs.su/images/posts_images/lazarus1.png">  в правом верхнем углу формы, и выбрать нужную версию текста.
+<img class="center" src="aivs.su/images/posts_images/lazarus.jpg"></p>
 ]]></content>
   </entry>
   
   <entry>
     <title type="html"><![CDATA[Автодополнение sudo]]></title>
-    <link href="http://aivs.github.com/blog/2013/03/12/avtodopolnieniie-sudo/"/>
+    <link href="aivs.su/blog/2013/03/12/avtodopolnieniie-sudo/"/>
     <updated>2013-03-12T14:31:00+04:00</updated>
-    <id>http://aivs.github.com/blog/2013/03/12/avtodopolnieniie-sudo</id>
-    <content type="html"><![CDATA[<p><img class="right" src="http://aivs.github.com/images/posts_images/Terminal_100.png">
+    <id>aivs.su/blog/2013/03/12/avtodopolnieniie-sudo</id>
+    <content type="html"><![CDATA[<p><img class="right" src="aivs.su/images/posts_images/Terminal_100.png">
 При работе в консоли можно не дописывать команду, а нажать Tab и она сама допишется, но по умолчанию это не работает, когда команду набираешь
 после sudo. Чтобы автодополнение заработало после sudo, kdesu и gksu, добавьте в файл ~/.bashrc строку:</p>
 

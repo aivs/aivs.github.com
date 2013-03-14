@@ -1,4 +1,4 @@
 User-agent: *
 Disallow: 
 
-Sitemap: http://aivs.github.com/sitemap.xml 
+Sitemap: aivs.su/sitemap.xml 

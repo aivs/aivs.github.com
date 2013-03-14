@@ -1,41 +1,41 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
     <url>
-        <loc>http://aivs.github.com/blog/2013/03/12/avtodopolnieniie-sudo/</loc>
+        <loc>aivs.su/blog/2013/03/12/avtodopolnieniie-sudo/</loc>
         <lastmod>2013-03-12T17:14:13+04:00</lastmod>
     </url>
     <url>
         <loc>
-            http://aivs.github.com/blog/2013/03/12/vosstanovlieniie-udaliennogho-tieksta-iz-liuboi-formy-lazarus/
+            aivs.su/blog/2013/03/12/vosstanovlieniie-udaliennogho-tieksta-iz-liuboi-formy-lazarus/
         </loc>
         <lastmod>2013-03-12T17:14:49+04:00</lastmod>
     </url>
     <url>
         <loc>
-            http://aivs.github.com/blog/2013/03/12/pochtovyi-siervier-exim-otpravka-pochty-ot-liubogho-imieni/
+            aivs.su/blog/2013/03/12/pochtovyi-siervier-exim-otpravka-pochty-ot-liubogho-imieni/
         </loc>
         <lastmod>2013-03-12T17:14:37+04:00</lastmod>
     </url>
     <url>
-        <loc>http://aivs.github.com/blog/2013/03/12/pierieviernut%27-stroku-v-objective-c/</loc>
+        <loc>aivs.su/blog/2013/03/12/pierieviernut%27-stroku-v-objective-c/</loc>
         <lastmod>2013-03-12T15:55:17+04:00</lastmod>
     </url>
     <url>
         <loc>
-            http://aivs.github.com/blog/2013/03/12/ighrovaia-pristavka-k-tv-iz-komp%27iutiera-upravlieniie-sistiemoi-s-dzhoistika/
+            aivs.su/blog/2013/03/12/ighrovaia-pristavka-k-tv-iz-komp%27iutiera-upravlieniie-sistiemoi-s-dzhoistika/
         </loc>
         <lastmod>2013-03-12T17:14:12+04:00</lastmod>
     </url>
     <url>
-        <loc>http://aivs.github.com/blog/archives/</loc>
+        <loc>aivs.su/blog/archives/</loc>
         <lastmod>2013-03-12T17:14:49+04:00</lastmod>
     </url>
     <url>
-        <loc>http://aivs.github.com/</loc>
+        <loc>aivs.su/</loc>
         <lastmod>2013-03-12T17:14:49+04:00</lastmod>
     </url>
     <url>
-        <loc>http://aivs.github.com/robots.txt</loc>
+        <loc>aivs.su/robots.txt</loc>
         <lastmod>2013-02-21T23:07:28+04:00</lastmod>
     </url>
 </urlset>
